@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/3d_logo.png">
 </head>
 <body>
 
@@ -55,14 +56,15 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class=""sub-title>Contact Us</h1>
-                    <p><i class="fa-regular fa-paper-plane"></i> johnsmith123@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i> 999-999-9999</p>
+                    <p><i class="fa-regular fa-paper-plane"></i>hr@ennov8dg.com</p>
+                    <p><i class="fa-solid fa-phone"></i>(386) 450-0663</p>
                     <div class="social-icons">
                     <a href="https"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="contact-right ">
-                    <form id="contact-form" action="send_email.php" method="POST">
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="6b02cfea-d134-4a92-a28f-87f9dedf7c37">
                         <input type="text" name="name" placeholder="Your name" required>
                         <input type="email" name="email" placeholder="Your email" required>
                         <input type="text" name="phone" placeholder="Your phone number" required>
