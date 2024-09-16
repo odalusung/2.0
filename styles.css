@@ -814,5 +814,17 @@ nav ul li a{
     }
 
    
+    .reveal {
+        position: relative;
+        transform: translateY(50px); /* Initial position */
+        opacity: 1; /* Initial opacity */
+        transition: all .5s ease-in-out; /* Transition effect with ease-in-out timing */
+    }
+    
+    .reveal.active {
+        opacity: 1; /* Opacity when active */
+        transform: translateY(0px); /* Translate back to original position */
+    }
+    
 
 }
